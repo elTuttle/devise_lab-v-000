@@ -1,6 +1,6 @@
 class WelcomeController < ApplicationController
 
-  Include DeviceHelper
+  include DeviceHelper
 
   def home
 
