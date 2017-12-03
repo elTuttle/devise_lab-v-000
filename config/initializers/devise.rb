@@ -272,4 +272,6 @@ Devise.setup do |config|
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = '/my_engine/users/auth'
   config.omniauth :facebook, ENV['FACEBOOK_KEY'], ENV['FACEBOOK_SECRET']
+  export FACEBOOK_KEY=2008465282502370
+  export FACEBOOK_SECRET=356d8ceda52b046a331fa8d4bddad64b
 end
