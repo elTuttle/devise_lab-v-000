@@ -1,6 +1,6 @@
 class WelcomeController < ApplicationController
 
-  include DeviceHelper
+  include DeviseHelper
 
   def home
     devise_error_messages
